@@ -13,12 +13,12 @@ import person5 from "../assets/person5.webp";
 import person6 from "../assets/person6.webp";
 
 export const LINKS = [
-  { href: "#hero", label: "Home" },
-  { href: "#work", label: "Work" },
-  { href: "#about", label: "About" },
-  { href: "#experience", label: "Experience" },
-  { href: "#testimonials", label: "Testimonials" },
-  { href: "#contact", label: "Contact" },
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/courses", label: "Courses" },
+  { href: "/testimonials", label: "Testimonials" },
+  { href : "/tutorials" , label : "Tutorials"},
+  { href: "/contact", label: "Contact" },
 ];
 
 export const HERO_CONTENT = {
@@ -67,6 +67,52 @@ export const PROJECTS = [
     name: "WellNest",
     description: "A wellness app for mental and physical health improvement",
     image: projects6,
+    link: "https://github.com/your-github/wellnest",
+  },
+];
+
+export const MY_TEAM = [
+  {
+    name: "Udit Chauhan",
+    description: "Founder of Digital Coding School",
+    image: person1,
+    link: "https://github.com/your-github/streamerzz",
+  },
+  {
+    name: "Vansh Som",
+    description: "Frontend Developer",
+    image: person2,
+    link: "https://github.com/your-github/nutritrack",
+  },
+  {
+    name: "Sunny Saini",
+    description: "Backend Developer",
+    image: person3,
+    link: "https://github.com/your-github/hairrevive",
+  },
+  {
+    name: "Aman Jain",
+    description:
+      "Frontend Developer",
+    image: person4,
+    link: "https://github.com/your-github/devdeck",
+  },
+  {
+    name: "Urvashi Agarwal",
+    description: "FrontEnd Developer",
+    image: person5,
+    link: "https://github.com/your-github/fitconnect",
+  },
+  {
+    name: "Purvi Kumar",
+    description: "Backend Developer",
+    image: person6,
+    link: "https://github.com/your-github/wellnest",
+  },
+  {
+    name: "Bhaviya Jain",
+    description: "Web Designer",
+    image: person6,
     link: "https://github.com/your-github/wellnest",
   },
 ];
